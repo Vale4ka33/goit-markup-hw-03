@@ -266,14 +266,13 @@ ol {
     gap: 40px;
 }
 .header-nav-list{
-    display: block;
+    display: flex;
     gap: 40px;
-   
+
 }
-.header-nav-item{
+.header-nav-link {
     padding: 24px 0;
 }
-
 /* hero-section  */
 .hero-section {
     padding: 188px 0;
