@@ -248,11 +248,13 @@ ol {
     padding-bottom: 120px;
 }
 /* header */
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
 .header-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
     padding: 0 15px
 }
 .header-nav{
@@ -264,13 +266,15 @@ ol {
     gap: 40px;
 }
 .header-nav-list{
-    display: flex;
+    display: block;
     gap: 40px;
-    padding: 24px 0;
    
-
-    /* hero-section  */
 }
+.header-nav-item{
+    padding: 24px 0;
+}
+
+/* hero-section  */
 .hero-section {
     padding: 188px 0;
 
