@@ -45,7 +45,7 @@ ol {
     padding: 0;
     white-space: nowrap;
     clip: rect(0 0 0 0);
-    clip-path: inset(50%);
+    clip-path: inset(100%);
     overflow: hidden;
 }
 
@@ -265,25 +265,28 @@ ol {
 .header-nav-list{
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 
     /* hero-section  */
 }
-.container-hero-section {
-    padding-top: 188px;
-    padding-bottom: 188px;
+.hero-section {
+    padding: 188px 0;
+    border-bottom: 1px solid #e7e9fc;
 }
 .hero-section-name{
     margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
-    width: 496px;
+    max-width: 496px;
 }
 .button{
     margin-left: auto;
     margin-right: auto;
     display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 /* section-1  */
 .about-list{
@@ -341,7 +344,7 @@ ol {
     margin-bottom: 72px;
 }
 .our-portfolio-photo{
-    width: calc((100% -48px) / 3);
+    width: calc((100% - 48px) / 3);
 
 }
 /* footer */
